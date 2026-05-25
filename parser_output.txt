@@ -1,0 +1,14 @@
+=== ABSTRACT SYNTAX TREE ===
+Program
+  VarDecl: x, y, result : integer
+  Block
+    Assign: x := 5
+    Assign: y := 10
+    If
+      Condition: (x < y)
+      Then:
+        Assign: result := (x + y)
+      Else:
+        Assign: result := (y - x)
+    Write: result 
+=============================

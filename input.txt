@@ -1,0 +1,15 @@
+program test;
+
+var x, y, result: integer;
+
+begin
+    x := 5;
+    y := 10;
+    
+    if x < y then
+        result := x + y
+    else
+        result := y - x;
+    
+    write(result)
+end.

@@ -1,0 +1,8 @@
+
+=== SYMBOL TABLE ===
+Name                Type           Initialized    Value/Array         
+----------------------------------------------------------------------
+x                   INTEGER        No             ?                   
+y                   INTEGER        No             ?                   
+result              INTEGER        No             ?                   
+====================
